@@ -8,7 +8,7 @@
 }
 #intro{
     font-family:Verdana, Geneva, sans-serif;
-    height:30%;
+    height:20%;
     font-size:15px;
     width:80%;
     color:white;
@@ -18,7 +18,7 @@
 #paragraphs{
     font-size:15px;
     font-family:Verdana, Geneva, sans-serif;
-    height:60%;
+    height:40%;
     color:white;
     margin-left:2%;
     margin-right:2%;
@@ -30,6 +30,9 @@
     padding:1%;
     display:inline-block;
     text-align:center;
+}
+#conclusion{
+    height:30%;
 }
 body {
     background: linear-gradient(#010001, #070613, #020102);
