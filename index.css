@@ -17,7 +17,7 @@
     color:white;
     margin:2%;
 }
-#para1 #para2 #para3{
+#para1, #para2, #para3{
     width:30%;
     text-align:center;
     padding:1%;
