@@ -9,12 +9,14 @@
 #intro{
     font-family:Verdana, Geneva, sans-serif;
     height:30%;
+    font-size:15px;
     width:80%;
     color:white;
     margin:auto;
     text-align:center;
 }
 #content{
+    font-size:15px;
     font-family:Verdana, Geneva, sans-serif;
     height:60%;
     color:white;
@@ -22,6 +24,7 @@
     margin-right:2%;
 }
 #para1, #para2, #para3{
+    font-size:15px;
     font-family:Verdana, Geneva, sans-serif;
     width:30%;
     padding:1%;
