@@ -32,6 +32,12 @@
     text-align:center;
 }
 #conclusion{
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:15px;
+    width:80%;
+    color:white;
+    margin:auto;
+    text-align:center;
     height:30%;
 }
 body {
