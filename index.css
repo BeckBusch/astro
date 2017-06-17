@@ -15,12 +15,13 @@
 #content{
     height:60%;
     color:white;
-    margin:2%;
+    margin-left:2%;
+    margin-right:2%;
 }
 #para1, #para2, #para3{
-    width:30%;
-    text-align:center;
+    width:32%;
     padding:1%;
+    text-align:center;
 }
 body {
     background: linear-gradient(#010001, #070613, #020102);
