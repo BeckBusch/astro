@@ -6,7 +6,7 @@
     color:white;
 }
 #intro{
-    font:veranda;
+    font:verdana;
     height:30%;
     width:80%;
     color:white;
@@ -14,14 +14,14 @@
     text-align:center;
 }
 #content{
-    font:veranda;
+    font:verdana;
     height:60%;
     color:white;
     margin-left:2%;
     margin-right:2%;
 }
 #para1, #para2, #para3{
-    font:veranda;
+    font:verdana;
     width:30%;
     padding:1%;
     display:inline-block;
