@@ -6,6 +6,9 @@
     text-align:center;
     color:white;
 }
+#content{
+    height:90%;
+}
 #intro{
     font-family:Verdana, Geneva, sans-serif;
     height:20%;
@@ -15,16 +18,18 @@
     margin:auto;
     text-align:center;
 }
-#paragraphs{
-    font-size:15px;
-    font-family:Verdana, Geneva, sans-serif;
-    height:40%;
-    color:white;
+#para1{
     margin-left:2%;
+}
+#para3{
     margin-right:2%;
 }
+
 #para1, #para2, #para3{
     font-size:15px;
+    color:white;
+    height:40%;
+    vertical-align:middle;
     font-family:Verdana, Geneva, sans-serif;
     width:30%;
     padding:1%;
