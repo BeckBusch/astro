@@ -1,6 +1,12 @@
 * {
     border-radius:30px;
 }
+#para1:hover > #text {
+    display:inline-block;
+}
+#text {
+    display:none;
+}
 p {
     margin:auto;
     vertical-align:middle;
