@@ -23,10 +23,10 @@
 
 @-webkit-keyframes Expand {
     0% {
-        widith: initial;
+        width: initial;
     }
     100% {
-        widith: 100%;
+        width: 100%;
     }
 }
 
