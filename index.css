@@ -42,6 +42,15 @@
     }
 }
 
+#para1:hover ~ #para2, #para3 {
+    display:none;
+}
+#para2:hover ~ #para1, #para3 {
+    display:none;
+}
+#para3:hover ~ #para1, #para2 {
+    display:none;
+}
 p {
     margin: auto;
     vertical-align: middle;
