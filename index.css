@@ -1,8 +1,11 @@
 * {
     border-radius: 30px;
 }
-#para2 #pic {
+#para3 #pic {
     margin-top:1em;
+}
+#para2 #pic {
+    margin-top:1.5em;
 }
 p {
     margin: auto;
