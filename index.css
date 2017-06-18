@@ -6,6 +6,10 @@
 }
 #text {
     display:none;
+    animation: expand 10s linear;
+}
+@keyframes expand {
+    100% {width: 80%;}
 }
 p {
     margin:auto;
