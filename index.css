@@ -2,14 +2,11 @@
     border-radius:30px;
 }
 #para1:hover, #para2:hover, #para3:hover > #text {
-    display:inline-block;
   -webkit-animation: expand ease-in 0.5s;
   -webkit-animation-fill-mode:forwards;
 }
 #text {
     display:none;
-    animation-play-state: paused;
-    animation: expand 0.5s linear;
 }
 @-webkit-keyframes expand {
   0% {
