@@ -1,3 +1,10 @@
+*{
+    border-radius:30px;
+}
+p{
+    margin:auto;
+    vertical-align:middle;
+}
 #title{
     font-family:Verdana, Geneva, sans-serif;
     height:10%;
@@ -9,11 +16,16 @@
 #content{
     height:90%;
 }
+#intro, #conclusion{
+    padding:10px;
+    background:rgba(76, 76, 76, 0.3);
+}
 #intro{
     font-family:Verdana, Geneva, sans-serif;
     height:20%;
     font-size:15px;
     width:80%;
+    background:rgba(76, 76, 76, 0.3);
     color:white;
     margin:auto;
     text-align:center;
@@ -26,6 +38,7 @@
 }
 
 #para1, #para2, #para3{
+    background:rgba(76, 76, 76, 0.3);
     font-size:15px;
     color:white;
     height:40%;
