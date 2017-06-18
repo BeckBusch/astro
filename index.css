@@ -1,53 +1,6 @@
 * {
     border-radius: 30px;
 }
-
-#para1:hover > #text, #para3:hover > #text, #para2:hover > #text {
-    -webkit-animation: textExpand ease-in 0.5s;
-    -webkit-animation-fill-mode: forwards;
-}
-
-@-webkit-keyframes textExpand {
-    0% {
-        display: initial;
-    }
-    100% {
-        display: inline-block;
-        width: 40%
-    }
-}
-
-#para1:hover, #para2:hover, #para3:hover {
-    -webkit-animation: Expand ease-in 0.5s;
-    -webkit-animation-fill-mode: forwards;
-}
-
-@-webkit-keyframes Expand {
-    0% {
-        width: initial;
-    }
-    100% {
-        width: 100%;
-    }
-}
-
-#para1, #para2, #para3 {
-    -webkit-animation: normal linear 0.5s;
-    -webkit-animation-fill-mode: forwards;
-}
-
-@-webkit-keyframes normal {
-    100% {
-        width: initial;
-    }
-}
-
-#para1:hover ~ #para2 {display:none;}
-#para1:hover ~ #para3 {display:none;}
-#para2:hover ~ #para1 {display:none;}
-#para2:hover ~ #para3 {display:none;}
-#para3:hover ~ #para1 {display:none;}
-#para3:hover ~ #para2 {display:none;}
 p {
     margin: auto;
     vertical-align: middle;
