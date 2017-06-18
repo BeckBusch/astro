@@ -1,17 +1,27 @@
 * {
     border-radius:30px;
 }
-#para1:hover > #text {
+#para1:hover, #para2:hover, #para3:hover > #text {
     display:inline-block;
-    animation-play-state: running;
+  -webkit-animation: expand ease-in 0.5s;
+  -webkit-animation-fill-mode:forwards;
 }
 #text {
     display:none;
     animation-play-state: paused;
     animation: expand 0.5s linear;
 }
-@keyframes expand {
-    100% {width: 80%;}
+@-webkit-keyframes expand {
+  0% {
+    display:initial;
+      width:initial;
+  }
+  30% {
+      display:inline-block;
+  }
+  100% {
+   width:100%
+  }
 }
 p {
     margin:auto;
