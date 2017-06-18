@@ -42,18 +42,6 @@
     }
 }
 
-#text {
-    -webkit-animation: textNormal linear 0.5s;
-    -webkit-animation-fill-mode: forwards;
-}
-
-@-webkit-keyframes textNormal {
-    100% {
-        display: none;
-        width:initial
-    }
-}
-
 p {
     margin: auto;
     vertical-align: middle;
