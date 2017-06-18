@@ -2,7 +2,7 @@
     border-radius: 30px;
 }
 
-#para1:hover, #para3:hover, #para2:hover > #text {
+#para1:hover > #text, #para3:hover > #text, #para2:hover > #text {
     -webkit-animation: textExpand ease-in 0.5s;
     -webkit-animation-fill-mode: forwards;
 }
