@@ -3,9 +3,11 @@
 }
 #para1:hover > #text {
     display:inline-block;
+    animation-play-state: running;
 }
 #text {
     display:none;
+    animation-play-state: paused;
     animation: expand 10s linear;
 }
 @keyframes expand {
