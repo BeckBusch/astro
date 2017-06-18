@@ -13,6 +13,7 @@
     }
     100% {
         display: inline-block;
+        width: 40%
     }
 }
 
@@ -49,6 +50,7 @@
 @-webkit-keyframes textNormal {
     100% {
         display: none;
+        width:initial
     }
 }
 
