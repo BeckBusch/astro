@@ -8,7 +8,7 @@
 #text {
     display:none;
     animation-play-state: paused;
-    animation: expand 10s linear;
+    animation: expand 0.5s linear;
 }
 @keyframes expand {
     100% {width: 80%;}
