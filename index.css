@@ -1,7 +1,7 @@
 * {
     border-radius:30px;
 }
-#para1:hover, #para2:hover, #para3:hover > #text {
+/*#para1:hover, #para2:hover, #para3:hover > #text {
   -webkit-animation: expand ease-in 0.5s;
   -webkit-animation-fill-mode:forwards;
 }
@@ -20,6 +20,7 @@
    width:100%
   }
 }
+*/
 p {
     margin:auto;
     vertical-align:middle;
